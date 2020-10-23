@@ -1,6 +1,6 @@
 <template>
   <q-page class="row justify-center">
-    <div class="row col-12">
+    <div class="row col-12 q-pt-xl">
       <div class="col-6">
         <bar :Data="[12, 19, 3, 5, 2, 3]" :Labels="['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'] " Title="Meu gráfico"/>
       </div>
