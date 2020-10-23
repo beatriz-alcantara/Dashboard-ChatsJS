@@ -1,7 +1,7 @@
 <template>
   <q-layout view="lHh Lpr lFf">
     <q-header elevated>
-      <q-toolbar class="bg-teal-10">
+      <q-toolbar class="bg-purple-9">
         <q-toolbar-title>
           Quasar App
         </q-toolbar-title>
