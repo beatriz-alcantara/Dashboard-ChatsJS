@@ -1,32 +1,68 @@
 <template>
   <q-page class="row justify-center">
-    <div class="row col-12 q-pt-xl">
+    <div class="row col-10 q-pt-xl q-col-gutter-sm">
       <div class="col-6">
-        <bar :Data="[12, 19, 3, 5, 2, 3]" :Labels="['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'] " Title="Meu gráfico"/>
+        <q-card>
+          <q-card-section>
+            <bar :Data="[12, 19, 3, 5, 2, 3]" :Labels="['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'] " Title="Meu gráfico"/>
+          </q-card-section>
+        </q-card>
       </div>
       <div class="col-6">
-        <lines :Data="[12, 19, 3, 5, 2, 3]" :Labels="['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'] " Title="Gráfico de linha"/>
+        <q-card>
+          <q-card-section>
+            <lines :Data="[12, 19, 3, 5, 2, 3]" :Labels="['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'] " Title="Gráfico de linha"/>
+          </q-card-section>
+        </q-card>
       </div>
       <div class="col-6">
-        <radar :Data="[12, 19, 20, 5, 2, 3]" :Labels="['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'] " Title="Radar"/>
+        <q-card>
+          <q-card-section>
+            <radar :Data="[12, 19, 20, 5, 2, 3]" :Labels="['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'] " Title="Radar"/>
+          </q-card-section>
+        </q-card>
       </div>
       <div class="col-6">
-        <pie :Data="[12, 19, 20, 5, 2, 3]" :Labels="['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'] " Title="Pie"/>
+        <q-card>
+          <q-card-section>
+            <pie :Data="[12, 19, 20, 5, 2, 3]" :Labels="['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'] " Title="Pie"/>
+          </q-card-section>
+        </q-card>
       </div>
       <div class="col-6">
-        <doughnut :Data="[12, 19, 20, 5, 2, 3]" :Labels="['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'] " Title="Doughnut"/>
+        <q-card>
+          <q-card-section>
+            <doughnut :Data="[12, 19, 20, 5, 2, 3]" :Labels="['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'] " Title="Doughnut"/>
+          </q-card-section>
+        </q-card>
       </div>
       <div class="col-6">
-        <polar-area :Data="[12, 19, 20, 5, 2, 3]" :Labels="['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'] " Title="Polar Area"/>
+        <q-card>
+          <q-card-section>
+            <polar-area :Data="[12, 19, 20, 5, 2, 3]" :Labels="['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'] " Title="Polar Area"/>
+          </q-card-section>
+        </q-card>
       </div>
       <div class="col-6">
-        <bubbles :Data="dataBubble" :Labels="['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'] " Title="Bubble"/>
+        <q-card>
+          <q-card-section>
+            <bubbles :Data="dataBubble" :Labels="['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'] " Title="Bubble"/>
+          </q-card-section>
+        </q-card>
       </div>
       <div class="col-6">
-        <scatter :Data="[{ x: 5, y: 3 }, { x: 8, y: 5 }, { x: -10, y: 2 }, { x: 2, y: 3 }, { x: 1, y: 10 }]" :Labels="['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'] " Title="Bubble"/>
+        <q-card>
+          <q-card-section>
+            <scatter :Data="[{ x: 5, y: 3 }, { x: 8, y: 5 }, { x: -10, y: 2 }, { x: 2, y: 3 }, { x: 1, y: 10 }]" :Labels="['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'] " Title="Bubble"/>
+          </q-card-section>
+        </q-card>
       </div>
       <div class="col-6">
-        <mixed :Data="[{ x: 5, y: 3 }, { x: 8, y: 5 }, { x: -10, y: 2 }, { x: 2, y: 3 }, { x: 1, y: 10 }]" :Labels="['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'] " Title1="Bar" Title2="Line"/>
+        <q-card>
+          <q-card-section>
+            <mixed :Data="[{ x: 5, y: 3 }, { x: 8, y: 5 }, { x: -10, y: 2 }, { x: 2, y: 3 }, { x: 1, y: 10 }]" :Labels="['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'] " Title1="Bar" Title2="Line"/>
+          </q-card-section>
+        </q-card>
       </div>
     </div>
   </q-page>
