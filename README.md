@@ -3,8 +3,8 @@
 Dashboard com chartsJS
 
 <img src="docs/dashboard-parte1.png" width="600" height="320"/>
-<img src="docs/Dashboard-parte2.png" width="600" height="320"/>
-<img src="docs/Dashboard-parte3.png" width="600" height="320"/>
+<img src="docs/dashboard-parte2.png" width="600" height="320"/>
+<img src="docs/dashboard-parte3.png" width="600" height="320"/>
 
 ## Install the dependencies
 ```bash
