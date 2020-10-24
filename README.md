@@ -1,4 +1,4 @@
-# Dashboard com Chartsjs (dashboard-charts)
+# Dashboard com Chartsjs (dashboard-charts) :chart_with_upwards_trend: :bar_chart: :chart_with_downwards_trend:
 
 Dashboard com chartsJS
 
